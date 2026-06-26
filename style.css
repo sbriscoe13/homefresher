@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #152238;
+    background: #ffffff;
+  }
+  
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 8%;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .logo img {
+    height: 70px;
+    width: auto;
+    display: block;
+}
+  
+  nav a {
+    margin-left: 24px;
+    color: #152238;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .hero {
+    padding: 90px 8%;
+    background: #f3f8fb;
+  }
+  
+  .hero h1 {
+    max-width: 720px;
+    font-size: 52px;
+    line-height: 1.05;
+    margin: 0 0 20px;
+  }
+  
+  .hero p {
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 24px;
+    background: #4D86D8;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .section {
+    padding: 60px 8%;
+    max-width: 900px;
+  }
+  
+  .section h2 {
+    font-size: 34px;
+  }
+  
+  footer {
+    padding: 30px 8%;
+    background: #152238;
+    color: white;
+  }
